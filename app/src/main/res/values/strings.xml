@@ -8,6 +8,7 @@
     <string name="label_empresa">Empresa</string>
     <string name="label_cor">Cor</string>
     <string name="label_confirmar">Confirmar</string>
-    <string name="label_show_success">Registro inserido com sucesso.</string>
+    <string name="label_show_success">Cartão inserido com sucesso.</string>
     <string name="label_share_to">Compartilhar</string>
+    <string name="voltar_para_a_tela_principal">Voltar para a tela principal</string>
 </resources>

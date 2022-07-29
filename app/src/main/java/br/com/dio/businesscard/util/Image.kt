@@ -27,17 +27,17 @@ class Image {
             }
         }
 
-        private fun getScreenShotFromView(view: View): Bitmap? {
+        private fun getScreenShotFromView(card: View): Bitmap? {
             var screenshot: Bitmap? = null
             try {
                 screenshot =
                     Bitmap.createBitmap(
-                        view.measuredWidth,
-                        view.measuredHeight,
+                        card.measuredWidth,
+                        card.measuredHeight,
                         Bitmap.Config.ARGB_8888
                     )
                 val canvas = Canvas(screenshot)
-                view.draw(canvas)
+                card.draw(canvas)
             } catch (e: Exception) {
                 Log.e("GFG", "Failed to capture screenshot because:" + e.message)
             }

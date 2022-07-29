@@ -13,7 +13,8 @@
         android:background="?attr/actionBarItemBackground"
         android:src="@drawable/ic_close"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/voltar_para_a_tela_principal" />
 
     <TextView
         android:id="@+id/tv_title"
@@ -117,7 +118,6 @@
             android:layout_height="match_parent"
             android:inputType="text"
             android:textAllCaps="true"
-            />
             />
 
     </com.google.android.material.textfield.TextInputLayout>
